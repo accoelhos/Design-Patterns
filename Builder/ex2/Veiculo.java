@@ -21,6 +21,7 @@ public class Veiculo {
     public Integer getNumeroDePortas() {
         return numeroDePortas;
     }
+    //encapsulada
      public static class Builder implements VeiculoBuilder {
         private String tipo;
         private String modelo;
