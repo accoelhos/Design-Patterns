@@ -1,0 +1,2 @@
+Veículo tipo: Carro, Modelo: Fusca, Número de portas: 4
+Veículo tipo: Moto, Modelo: Honda CBR, Sem número de portas
