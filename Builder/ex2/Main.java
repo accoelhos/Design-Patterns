@@ -7,6 +7,6 @@ public class Main {
         System.out.println("Veículo tipo: " + carro.getTipo() + ", Modelo: " + carro.getModelo() + ", Número de portas: " + carro.getNumeroDePortas());
         // Construindo uma Moto
         Veiculo moto = diretor.construirMoto("Honda PCX");
-        System.out.println("Veículo tipo: " + moto.getTipo() + ", Modelo: " + moto.getModelo() + ", Sem número de portas");
+        System.out.println("Veículo tipo: " + moto.getTipo() + ", Modelo: " + moto.getModelo());
     }
 }
