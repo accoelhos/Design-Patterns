@@ -4,5 +4,5 @@ public interface VeiculoBuilder {
         VeiculoBuilder setModelo(String modelo);
         VeiculoBuilder setNumeroDePortas(Integer numeroDePortas);
         Veiculo build();
-    }
 }
+
