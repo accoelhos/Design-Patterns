@@ -3,10 +3,10 @@ public class Cliente {
         Database database = new DatabaseProxy();
 
         // Primeira consulta - vai inicializar a conexão.
-        database.query("SELECT * FROM users");
+        database.query("SELECT * FROM Alunos");
 
         // Segunda consulta - a conexão já está estabelecida.
-        database.query("SELECT * FROM products");
+        database.query("SELECT * FROM Produtos");
     }
 }
 

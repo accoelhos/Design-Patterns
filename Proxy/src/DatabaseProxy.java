@@ -3,10 +3,11 @@ public class DatabaseProxy implements Database {
 
     @Override
     public void query(String sql) {
-        // Inicialização preguiçosa: só cria a conexão quando é realmente necessária.
+        //inicialização preguiçosa: só cria a conexão quando é realmente necessária
         if (realDatabase == null) {
             realDatabase = new RealDatabase();
         }
+        //ele que vai chamar a ação do objeto real
         realDatabase.query(sql);
     }
 }
